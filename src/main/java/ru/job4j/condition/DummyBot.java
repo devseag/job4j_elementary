@@ -10,8 +10,6 @@ public class DummyBot {
         } else if ("Bye.".equals(question)) { /* заменить ... на проверку, известен ли боту этот вопрос и он знает как на него ответить. */
             /* заменить ... на правильный ответ rsl = "ответ по заданию". */
             rsl = "See you later.";
-        } else {
-            rsl = "I don't know. Please, ask another question.";
         }
         return rsl;
     }
